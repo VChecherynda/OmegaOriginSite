@@ -1,0 +1,198 @@
+@media screen and (max-width: 768px) {
+
+		#first {
+
+			height: 732px;
+
+			.wrapper_img { height: 732px; }
+
+			.inner_box { margin-top: 20px; }
+
+			h1 {
+			    line-height: 4rem;
+			    font-size: 4rem;
+			    margin-bottom: 14px;
+			}
+
+			h2 {
+			    font-size: 2.4rem;
+			}
+
+			.img_slide { bottom: 90px; }
+		}
+
+		#second {
+			.container {
+				.img-block-right { 
+					margin-top: 20px;
+					text-align: center;
+					img { width: 50%; }
+				}
+			} 
+		}
+
+		#third {
+			.text-block-left {
+				h1 { margin-right: 0; }
+			}
+
+			.social-icons {
+				margin: 20px 0;
+
+				.social-box {
+
+					.icon {
+						margin: 20px 0;
+					}
+
+					p {
+					   margin: 0 30px;
+					   font-size: 2.0rem;	
+					}
+				}
+				
+			}
+		}
+
+		#fourth {
+			.box { margin: 40px; }
+		}
+
+		#fifth  {
+
+			.text-block-left {
+
+				margin: 20px 0;
+
+				p { font: 2.3rem/3rem "LatoLight"; }
+
+			}
+
+			.face-box {
+				.boxBotArrow {
+					height: 2.7rem;
+				}
+			}
+		}
+
+		#six {
+			padding: 10px 0 ;
+
+			#graphics {
+				.box-graph {
+					.progress-bar { margin: 5px 0 10px 0; }
+				} 
+			} 
+		}
+
+		#seven {
+
+			.text-block-left {
+
+				margin: 20px 0;
+
+				p { font: 2.3rem/3rem "LatoLight"; }
+
+			}
+
+			.gallery-box-lg {
+
+				.gallery-nav { 
+					margin: 20px 0;
+					li {
+						a { 
+							padding: 0.7rem;
+						    font: 1.4rem/4rem "LatoReg";
+			     		}
+					}
+				}
+
+				.image-box-lg { 
+
+			     	margin: 10px;
+
+			     	a {
+
+			     		.card-text-box {
+
+			     			margin:0;
+
+			     			h3,p {
+					     	    margin-bottom: 0px;
+								font-size: 1.2rem;
+							}
+			     		}
+			     		
+			     	}
+			     	
+			    }
+			} 
+
+		}
+
+		#eigth {
+
+			.text-block-left {
+
+				margin: 20px 0;
+
+				p { font: 2.3rem/3rem "LatoLight"; }
+
+			}
+
+			.card-price {
+				width: 170px;
+				margin: 10px auto;
+
+				h2 {
+					font: 2.4rem "LatoReg";
+		    		margin-bottom: 10px;	
+				}
+
+				p {
+					margin-bottom: 10px;
+		    		font-size: 2.4rem;
+
+		    		span:first-child {
+					    margin-right: 12px;
+					    font-size: 2.0rem;
+					}
+				}
+
+				ul li { padding: 5px; } 
+
+				a { margin-bottom: 20px; }
+			}
+
+		}
+
+		#form {
+
+			.text-block-left { 
+				margin-top: 13px;
+				padding: 0 15px;
+			}
+
+			form {
+				margin-bottom: 13px;
+
+				[type="text"] { width: 100%; }
+
+				.col-md-3,
+				.col-md-12 { padding: 0 15px; }
+
+			button { margin-top: 13px; }
+			}
+			
+		  }
+
+		}
+
+		#footer {
+
+			p {
+				padding: 20px 0;	
+			}
+		    
+		}
+

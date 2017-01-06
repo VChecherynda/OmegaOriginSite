@@ -1,0 +1,56 @@
+/* OWL CAROUSEL STYLE */
+
+.owl-theme .owl-nav div {
+  padding: 5px 9px;
+}
+
+.owl-theme .owl-nav {
+  margin: 0px;
+}
+ 
+.owl-theme .owl-nav i{
+  margin: 2px;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    position: absolute;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #d1d1d1;
+	border-radius: 50%;
+}
+
+.owl-theme .owl-nav .owl-prev{
+  background: url('../img/arrow-left.png') no-repeat 19px 17px ;	
+  left: -16%;
+  top: 28%; 
+}
+
+.owl-theme  .owl-nav .owl-next{
+  background: url('../img/arrow-right.png') no-repeat 22px 17px ;	
+  right: -16%;
+  top: 28%;
+}
+
+
+.owl-theme .owl-nav .owl-prev:hover {
+  cursor: pointer;	
+  background: url('../img/arrow-left-hover.png') no-repeat top right;
+}
+
+.owl-theme .owl-nav .owl-next:hover {
+  cursor: pointer; 	
+  background: url('../img/arrow-right-hover.png') no-repeat top left;	
+}
+
+/* END */
+
+/*  Responsive*/
+
+@media all and (max-width: 990px) {
+  .owl-theme .owl-nav { display: none; }
+
+} 
+
+/* End */

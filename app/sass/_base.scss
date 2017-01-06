@@ -1,0 +1,57 @@
+/*FONTS */
+
+$font-stack-base: 'LatoLight';
+$font-stack-reg: 'LatoReg';
+$font-stack-bold: 'Lato-Bold';
+$font-stack-bold: 'Arimo-Bold';
+$font-stack-bold-black: 'LatoBlack';
+$font-stack-OS-reg:'OpenSans-Regular';
+$font-stack-extrabold:'OpenSans-Extrabold';
+
+/* COLOR */
+
+$primary-color: #8CC739;
+$primary-hover-color: #649F11;
+$second-color: #FFF;
+$third-color: #F2F2F2 ;
+$fourth-color: #080707;
+$six-color: #000;
+$seventh-color:#d3d3d3;
+$eigth-color: #666;
+$tenth-color:#25c4ac;
+$eleventh-color:#7d7d7d;
+$bg-color-section-4:#242120;
+$text-color-p: #949494;
+$text-color-nav-gallery: #333;
+$text-color-price-items:#8a8d94;
+$bot-div:#d5dbe5;
+$text-icons-color:#292626;
+/* BASE */
+
+html {
+	font-size: 10px;
+}
+
+body, p {
+	
+	font-family: $font-stack-base ;
+}
+
+h1 	{font-family: $font-stack-bold-black;}
+
+h2	{ font-family: $font-stack-base; }
+
+h3 	{ font-family: $font-stack-bold; }
+
+a , ul li a { font-family: $font-stack-bold; }
+
+a:hover, 
+a:focus { text-decoration: none; }
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
